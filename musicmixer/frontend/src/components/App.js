@@ -9,10 +9,10 @@ export default class App extends Component {
     }
 
     render() {
-        return (<div>
-            <h1>Welcome to the webpage</h1>
+        return (<div className="container w-100 h-100 bg-light text-dark">
+            <h1 className="bg-light text-dark text-center">Welcome to the webpage</h1>
              
-             <Blog/> 
+              
              
              </div>
             
