@@ -3,9 +3,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="author" content="Medical Marvels">
-        <meta name="description" content="Home page for Transfr">
-        <meta name="keywords" content="medical,transfer,ridesharing,driver,doctor">
+        <meta name="author" content="CLF">
+        <meta name="description" content="Home page for Musix Mixer">
+        <meta name="keywords" content="music,mixer,musicmixer,friends,together">
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="HandheldFriendly" content="true">  
@@ -58,7 +58,7 @@
 
                 <!-- the logo/link in the top left of the website -->
                 <!-- <li> -->
-                    <a href="#" class="a-transfr-home">MusicMixer</a>
+                    <a href="{% url 'homepage' %}" class="a-transfr-home">MusicMixer</a>
                 <!-- </li> -->
                 <!-- hamburger menu icon. checkbox allows dropdown menu to work. -->
                 <label for="checkbox">
@@ -70,8 +70,8 @@
                 <a href="#" class="a-nav-bar">Log Out</a>
 
         <!-- Request a Ride ---------------------->  
-                    <a href="#" class="a-nav-bar">
-                        Request a Ride 
+                    <a href=" {% url 'createroom' %} " class="a-nav-bar">
+                        Create Room 
                     </a>
                     
         <!-- Driver ------------------------------>
@@ -121,7 +121,7 @@
             {% block sidebar %}{% endblock sidebar%}
             
             {% block menuContent %}  
-            <main>
+            <main class="bg-dark">
             
                 <div> {% block content %} {% endblock content%} </div>
 

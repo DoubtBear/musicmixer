@@ -30,7 +30,7 @@
 /* --- navbar ---------------------------------------------------------------------------------------- */
 /* style characteristics for the navigation bar */
 .navbar-general {
-  background-color:rgba(255, 255, 250, 0.815);
+  background-color:rgba(155, 155, 155, 0.815);
   display: block;
   box-shadow: 0px 10px 100px rgba(107, 107, 107, 0.247);
   height: auto;
@@ -45,7 +45,7 @@
   margin-bottom: 1vh;
   margin-left: 4vh;
   font-family: 'Palanquin Dark', sans-serif;
-  text-transform: uppercase;
+  
   font-weight: 400;
   font-size: 2.2em;
   display: inline-block;

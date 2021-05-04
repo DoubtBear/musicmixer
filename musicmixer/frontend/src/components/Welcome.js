@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import CreateRoom from "./CreateRoom"
-import SignInSide from "./SignInSide"
-import ContentRouter from "./ContentRouter"
 
-export default class App extends Component {
+
+
+export default class Welcome extends Component {
     constructor(props){
         super(props);
     }
@@ -13,7 +12,7 @@ export default class App extends Component {
         return (<div className="container w-100 h-100 bg-light text-dark">
             
              
-              <ContentRouter/>
+              <h1 className="text-center shadow-sm">Welcome to Music Mixer!</h1>
              
              </div>
             
@@ -22,9 +21,3 @@ export default class App extends Component {
             );
     }
 }
-
-
-const appDiv = document.getElementById("main");
-
-render(<App/>, appDiv);
-
